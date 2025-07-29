@@ -4,8 +4,8 @@ import { auth } from "../firebase";
 import { onAuthStateChanged } from "firebase/auth";
 import { useEffect } from "react";
 
-const clubs = ["Legends KL", "Legends PJ", "Legends Melaka", "Legends Penang", "Legends Sabah", "Legends Johor"];
-const classes = ["HIIT", "Zumba", "Boxing", "Yoga", "Pilates", "Strength"];
+const clubs = ["LF Wangsa Maju", "LF Paroi Jaya", "LF Melaka", "LF Kuala Nerang", "LF Sabah", "LF Johor"];
+const classes = ["HIIT", "Zumba", "Boxing", "Yoga", "Pilates", "Strength Training"];
 const trainers = ["Coach Lisa", "Coach Amir", "Coach Jenny", "Coach Daniel", "Coach Sarah", "Coach Raj"];
 const times = ["07:00 AM", "09:00 AM", "12:00 PM", "03:00 PM", "06:00 PM", "08:00 PM"];
 

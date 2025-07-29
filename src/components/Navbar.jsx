@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { auth } from "../firebase";
 import { signOut } from "firebase/auth";
-import Logo from "../logo/logo.png";
+import Logo from "../logo/Logo.png";
 
 const Navbar = ({ user }) => {
     const navigate = useNavigate();
@@ -19,7 +19,7 @@ const Navbar = ({ user }) => {
                 <img
                     src={Logo}
                     alt="Legends Fitness"
-                    style={{ height: "70px", width: "60px", objectFit: "contain" }}
+                    style={{ height: "100px", width: "100px", objectFit: "contain" }}
                 />
             </Link>
             <button className="btn btn-outline-light" onClick={handleLogout}>
