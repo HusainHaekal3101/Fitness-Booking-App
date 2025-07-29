@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { auth } from "../firebase";
 import { signOut } from "firebase/auth";
-import Logo from "../logo/Logo.png";
+import Logo from "../logo/Logo.PNG";
 
 const Navbar = ({ user }) => {
     const navigate = useNavigate();
